@@ -30,11 +30,13 @@ const calculation4 = prompt ("Решите пример 15 % 2 ")
 const result4 = 14 % 2
 var notResult = calculation4
 console.log ("Пример 5: 14 % 2 = " + result4 + " Ваш ответ " + notResult)
+
 let alertMessage = alert ("Откройте консоль, для просмотра")
 
-let allertPrompt = prompt ("Введите первое число")
+let a = Number(prompt("Введите первое число:"))
+let b = Number(prompt("Введите второе число:"))
+let с = Number(prompt("Введите третье число:"))
 
- allertPrompt = prompt ("Введите второе число")
+let average = (a + b + с) / 3
 
- allertPrompt = prompt ("Введите третье число")
- console.log ("Cреднее арифметическое " + (allertPrompt / 3))
+console.log("Среднее арифметическое: " + average)

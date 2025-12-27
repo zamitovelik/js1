@@ -33,9 +33,9 @@ console.log ("Пример 5: 14 % 2 = " + result4 + " Ваш ответ " + not
 
 let alertMessage = alert ("Откройте консоль, для просмотра")
 
-let a = Number(prompt("Введите первое число:"))
-let b = Number(prompt("Введите второе число:"))
-let с = Number(prompt("Введите третье число:"))
+let a = +prompt("Введите первое число:")
+let b = +prompt("Введите второе число:")
+let с = +prompt("Введите третье число:")
 
 let average = (a + b + с) / 3
 
